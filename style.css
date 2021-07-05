@@ -1,20 +1,4 @@
-* {
-    box-sizing: border-box;
-}
 
-
-
-
-
-
-
-
-
-
-:root {
-    --color1: #D89584;
-    --color2: #F4F4F4;
-}
 
 p.texte_titre {
     text-align: center;
@@ -24,8 +8,6 @@ p.texte_titre {
     margin-bottom: 0px;
 
 }
-
-
 
 
 
@@ -45,14 +27,14 @@ p.titre_image{
 }
 
 body {
-
+    background: linear-gradient(rgba(143, 192, 80, 0.747), rgb(255, 255, 255));
     margin: 0;
     font-family: Arial;
     
 }
 
 .linear-gradient {
-    background: linear-gradient(rgba(143, 192, 80, 0.747), rgb(255, 255, 255));
+
 }
 
 h1 {
