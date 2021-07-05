@@ -8,13 +8,15 @@ p.texte_titre {
     margin-bottom: 0px;
     margin-top: 0px;
 
+
 }
 
 
 
 img.img_acceuil {
     margin-top: 30px;
-    height: 1000px;
+    min-width: 300px;
+    width: 600px;
 }
 
 div.position_img_accueil {
@@ -31,11 +33,15 @@ body {
 
     margin: 0;
     font-family: Arial;
+    min-width: 375px;
+
     
 }
 
-.linear-gradient {
+div.linear-gradient {
     background: linear-gradient(rgba(143, 192, 80, 0.747), rgb(255, 255, 255));
+    width: 100%;
+    min-width: 375px;
 }
 
 h1 {
