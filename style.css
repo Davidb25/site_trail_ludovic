@@ -40,6 +40,11 @@ div.position_img_accueil {
 }
 
 
+p.titre_image{
+    text-align: center;
+    font-weight: bold;
+}
+
 body {
 
     margin: 0;
