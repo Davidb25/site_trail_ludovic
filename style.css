@@ -29,7 +29,7 @@ p.titre_image{
 }
 
 body {
-    background: linear-gradient(rgba(143, 192, 80, 0.747), rgb(255, 255, 255));
+    background-image: linear-gradient(rgba(143, 192, 80, 0.747), rgb(255, 255, 255));
     margin: 0;
     font-family: Arial;
     min-width: 375px;
