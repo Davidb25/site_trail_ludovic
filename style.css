@@ -15,7 +15,6 @@ p.texte_titre {
 
 img.img_acceuil {
     margin-top: 30px;
-    min-width: 300px;
     width: 600px;
 }
 
@@ -30,7 +29,7 @@ p.titre_image{
 }
 
 body {
-
+    background: linear-gradient(rgba(143, 192, 80, 0.747), rgb(255, 255, 255));
     margin: 0;
     font-family: Arial;
     min-width: 375px;
@@ -39,7 +38,7 @@ body {
 }
 
 div.linear-gradient {
-    background: linear-gradient(rgba(143, 192, 80, 0.747), rgb(255, 255, 255));
+
     width: 100%;
     min-width: 375px;
 }
@@ -51,3 +50,9 @@ h1 {
     margin-bottom: 0px;
 }
 
+@media only screen and (min-width: 768px) {
+
+    img.img_acceuil{
+        min-width: 350px;
+    }
+}
