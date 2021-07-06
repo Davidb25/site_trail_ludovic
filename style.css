@@ -1,53 +1,55 @@
 
 
-p.texte_titre {
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 0px;
-    margin-top: 0px;
-
-
-}
-
-
-
-img.img_acceuil {
-    margin-top: 30px;
-    width: 600px;
-}
-
-div.position_img_accueil {
-    text-align: center;
-}
-
-
-p.titre_image{
-    text-align: center;
-    font-weight: bold;
-}
 
 body {
     background-image: linear-gradient(rgba(143, 192, 80, 0.747), rgb(255, 255, 255));
-    margin: 0;
-    font-family: Arial;
-    min-width: 375px;
-    text-align: center;
-    
+    font-family: Arial;  
 }
 
 
-h1 {
-    color: Black;
+
+
+div.titre {
     text-align: center;
-    font-size: 42px;
     margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+p.text_titre {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+
+h1.nom_coureur {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+img.image_accueil{
+    width: 70%;
+}
+
+p.titre_image{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 5px;
 }
 
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
-    h1 {
-        text-align: center;
-    }
+
+
+
 }
