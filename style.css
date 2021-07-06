@@ -2,6 +2,7 @@
 
 
 body {
+    background-repeat: no-repeat;
     background-image: linear-gradient(rgba(143, 192, 80, 0.747), rgb(255, 255, 255));
     font-family: Arial;  
 }
