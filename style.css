@@ -51,7 +51,8 @@ p.titre_image{
 @media only screen and (max-width: 767px) {
 
     p.text_titre {
-        font-size: 32px;
+        font-size: 30px;
+
     }
 
     h1.nom_coureur {
