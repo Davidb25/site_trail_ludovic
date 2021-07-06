@@ -50,6 +50,17 @@ p.titre_image{
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
 
+    p.text_titre {
+        font-size: 32px;
+    }
 
+    h1.nom_coureur {
+        font-size: 22px;
+    }
+
+    p.titre_image{
+        font-size: 14px;
+
+    }
 
 }
